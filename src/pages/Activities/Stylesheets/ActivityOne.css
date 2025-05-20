@@ -1,0 +1,35 @@
+.text-field-activity .MuiInputLabel-root {
+    color: grey !important; 
+  }
+
+.text-field-activity .MuiOutlinedInput-notchedOutline {
+    border-color: #b57f3f;
+    border-radius: 10px; 
+
+}
+
+.text-field-activity .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #af5f02;
+  }
+
+.text-field-activity .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #af5f02;
+}
+
+.preview-box {
+    margin-top: 3px;
+    padding: 20px;
+    border: 1px solid #b57f3f;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif !important;
+}
+
+button.preview-btn,
+button.submit-btn {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.error-text,
+.helper-text {
+    margin-top: 3px;
+}

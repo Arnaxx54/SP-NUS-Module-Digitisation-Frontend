@@ -1,0 +1,65 @@
+.container-activity {
+    height: calc(100vh - 80px);
+    margin: 0px;
+    overflow-y: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px !important;
+    background-color: #f8f8f8;
+    padding: 30px 10vw 30px 10vw !important;
+    font-family: "Lato", sans-serif !important;
+}
+
+.header-activity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-activity h2 {
+    min-height: 1;
+    border-right: solid rgba(0, 0, 0, 0) 1px;
+    outline: none;
+    font-family: "Lato", sans-serif !important;
+}
+
+.reset-btn {
+    color: #af5f02 !important;
+}
+
+.reset-btn:hover {
+    background-color: transparent !important;
+}
+
+.switch-label {
+    margin-top: 10px;
+}
+
+.divider,
+.formControlLabel,
+.info-text {
+    margin-top: 10px !important;
+}
+
+.submit-btn {
+    background-color: rgba(135, 146, 137, 255) !important;
+    color: whitesmoke !important;
+    border: none !important;
+}
+
+.content-container {
+    margin-top: 10px !important;
+    padding: 10px !important;
+    border: 1px solid #af5f02 !important;
+    border-radius: 10px !important;
+
+}
+
+.instructions {
+    min-height: 1;
+    border-right: solid rgba(0, 0, 0, 0) 1px;
+    outline: none;
+    font-size: 17px !important;
+    font-family: "Lato", sans-serif !important;
+}

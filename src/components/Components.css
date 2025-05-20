@@ -1,0 +1,217 @@
+.activity-buttons {
+    margin-left: auto !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.activity-button.active {
+    color: green;
+    margin-left: auto;
+}
+
+.activity-button.disabled {
+    color: grey;
+    margin-left: auto;
+}
+
+.delete-template-loading {
+    margin: 0px 15px 0px 15px !important;
+}
+
+.activity-button-delete {
+    color: lightcoral !important;
+}
+
+.dialog-delete-header {
+    padding-bottom: 10px !important;
+    background-color: rgba(135, 146, 137, 255);
+}
+
+.dialog-delete-title {
+    font-family: "Lato", sans-serif !important;
+    font-size: 20px !important;
+}
+
+.activity-header-section {
+    display: flex;
+    width: 100%;
+}
+
+.activity-sub-title {
+    font-family: "Lato", sans-serif !important;
+    font-size: 20px !important;
+}
+
+.activity-sub-section {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 10px !important;
+}
+
+.editable-label {
+    min-height: 1px !important;
+    border-right: solid rgba(0, 0, 0, 0) 1px !important;
+    outline: none !important;
+    font-family: "Lato", sans-serif !important;
+    font-size: 17px !important;
+}
+
+.editable-instruction {
+    min-height: 1px !important;
+    border-right: solid rgba(0, 0, 0, 0) 1px !important;
+    outline: none !important;
+    font-family: "Lato", sans-serif !important;
+    font-size: 17px !important;
+    margin-top: 15px !important
+}
+
+.activity-divider {
+    margin-bottom: 15px !important;
+}
+
+.switch-label {
+    margin-top: 10px;
+}
+
+.login-title,
+.register-title {
+    font-family: "Lato", sans-serif !important;
+    font-size: 25px !important;
+}
+
+.login-header,
+.register-header {
+    padding-bottom: 10px !important;
+    background-color: rgba(135, 146, 137, 255);
+}
+
+.password-input {
+    margin-top: 10px !important;
+}
+
+.occupation-input {
+    margin-top: 20px;
+}
+
+.username-input {
+    margin-top: 15px;
+}
+
+.login-action,
+.register-action {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-button,
+.register-button {
+    background-color: black !important;
+    color: whitesmoke !important;
+}
+
+.toolbar-container {
+    background-color: #8e1f04;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.toolbar-title {
+    flex-grow: 1;
+    font-family: "Playfair Display", serif !important;
+    font-size: 30px !important;
+    color: #FAF9F6;
+}
+
+.toolbar-username {
+    margin-right: 10px !important;
+    font-family: "Bebas Neue", sans-serif !important;
+    font-size: 25px !important;
+    padding-top: 5px !important;
+}
+
+.toolbar-login,
+.toolbar-register,
+.toolbar-logout {
+    font-family: "Oswald", sans-serif !important;
+    font-size: 20px !important;
+    color: #FAF9F6;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.content-container {
+    margin-top: 10px !important;
+    padding: 10px !important;
+    border: 1px solid #af5f02 !important;
+    border-radius: 10px !important;
+
+}
+
+.draggable-response-label {
+    max-Width: 200px;
+    max-height: 20px;
+    padding: 10px;
+    margin: 10px;
+    cursor: "move";
+    white-space: "nowrap";
+}
+
+.draggable-response-label-child {
+    border: none;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.draggable-response {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+    margin: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-copy-button {
+    padding: 5px !important;
+    min-width: 0px !important;
+    margin-left: auto !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50% !important;
+    text-align: center;
+    background-color: #F5F5F4 !important;
+}
+
+.create-delete-button {
+    padding: 5px !important;
+    min-width: 0px !important;
+    width: 10px;
+    margin-left: 2px !important;
+    height: 10px;
+    border-radius: 50% !important;
+    text-align: center;
+    background-color: #F5F5F4 !important;
+}
+
+.copy-delete-section {
+    display: flex;
+}
+
+#main-container {
+    min-height: 900px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #E6E6FA;
+    border-radius: 20px !important; 
+    margin-top: 10px;
+}
